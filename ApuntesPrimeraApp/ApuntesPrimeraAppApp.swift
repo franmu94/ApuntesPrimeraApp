@@ -11,7 +11,7 @@ import SwiftUI
 struct ApuntesPrimeraAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ScrollHeader(text: "dd", buttonText: "Ir a seccion 2") {}
         }
     }
 }
